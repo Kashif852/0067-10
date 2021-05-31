@@ -11,7 +11,7 @@ router.get("/", (req, res) => {
 });
 
 app.use(`/.netlify/functions/api`, router);
-app.use(`/.netlify/functions/api/auth`, router);
+
 
 // Imagekit
 const ImageKit = require('imagekit');
