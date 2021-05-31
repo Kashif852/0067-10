@@ -12,9 +12,6 @@ router.get("/", (req, res) => {
 
 app.use(`/.netlify/functions/api`, router);
 
-// Image kit
-app.use(`/.netlify/functions/api`, router);
-
 
 
 
